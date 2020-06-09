@@ -5,7 +5,7 @@ Parameters:
   LanguageCode:
     Type: String
     Description: 'The language code of your audio file'
-    AllowedValues : ['en-US','es-US','en-AU','fr-CA','en-GB','de-DE','pt-BR','fr-FR','it-IT','ko-KR','es-ES']
+    AllowedValues : ['en-US','es-US','en-AU','fr-CA','en-GB','de-DE','pt-BR','fr-FR','it-IT','ko-KR','es-ES', 'ja-JP']
   InputS3BucketName:
     Type: String
     Default: 's3-lambda-transcribe-input-audio-bucket'
